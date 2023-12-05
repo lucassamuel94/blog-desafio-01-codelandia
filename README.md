@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+<img alt="Capa" src=".github/cover.jpg" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">
+  Blog - Desafio 01
+</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</br>
 
-## Expanding the ESLint configuration
+## :rocket: Sobre o desafio
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Reproduzir layout contendo uma página que simula a busca por títulos de um blog fake
 
-- Configure the top-level `parserOptions` property like this:
+### Funcionalidades da aplicação
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **`Pesquisa relacionada ao texto digitado no input`**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **`Mostrar quando não tem resultado`**
+
+- **`Habilitar favorito e permanecer salvo em localstorage`**
+
+### Nesse projeto foi utilizado
+
+- **`Vite`**
+
+- **`React JS`**
+
+- **`Zustand e Immer`**
+
+- **`Tailwind CSS`**
+
+</br>
+
+## :art: Layout
+
+Para acessar o layout do projeto no figma **[clique aqui](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=257087%3A654&mode=design&t=CjobuSk0jZq8lR6q-1)**
+
+Layout desenvolvido por [Iuri Code](https://www.instagram.com/iuricode/)
+
+</br>
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+
+---
+
+Feito por [Lucas Samuel](https://github.com/lucassamuel94)
