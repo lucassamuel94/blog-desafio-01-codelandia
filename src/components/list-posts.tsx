@@ -21,6 +21,14 @@ export const ListPosts = () => {
   return (
     <ul className="container py-12 md:py-14 lg:py-20 space-y-10">
       {
+        currentPosts.length === 0 && (
+          <div className="flex items-center justify-center">
+            <p className="text-center text-xl md:text-2xl font-bold text-dark-30">Nenhum resultado encontrado</p>
+          </div>
+        )
+      }
+
+      {
         currentPosts.map(post => (
           <Post key={post.id} post={post} />
         ))
